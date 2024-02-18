@@ -1,0 +1,33 @@
+-python -m venv myenv 
+-cd myenv\Scripts\activate
+or - 
+conda create -p venv python==3.10 -y
+conda activate venv/
+
+-Generate Google API Key https://makersuite.google.com/app/apikey
+-create .env file and write Google Gemini APIKEY here
+
+-app.py
+> pip install -r requirements.txt
+
+-create .env file put code
+ GOOGLE_API_KEY="Paste your GOOGLE_GEMINIAPI_KEY"
+
+> streamlit run app.py
+
++++++++++++++++++++++++++++++++++++
+*Generate Google gemini API KEY
+https://makersuite.google.com/app/apikey
+
+*documentation
+https://ai.google.dev/docs
+https://ai.google.dev/tutorials/python_quickstart
+
+*View in google colab
+https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/tutorials/python_quickstart.ipynb
+-connect
++++++++++++++++++++++++++++++++++++++++++++
+
+Github link -
+https://github.com/YogeshRaje/InvoiceExtractorAppWithGoogleGemini.git
+
